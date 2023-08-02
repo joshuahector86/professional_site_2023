@@ -1,0 +1,21 @@
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  gap: 20rem;
+  align-items: center;
+  padding: 5rem;
+  img {
+    max-width: 30rem;
+    border-radius: 5rem;
+    padding: 0.25rem;
+  }
+
+  .about-me-right-side {
+    max-width: 40rem;
+    font-size: 2rem;
+    .about-me-title {
+      font-size: 5rem;
+      padding-bottom: 2rem;
+    }
+  }
+}
