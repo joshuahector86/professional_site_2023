@@ -9,7 +9,7 @@ import {
 
 function Experience() {
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <div className="experience-inner-container">
         <div className="experience-title">Experience</div>
         <div className="experience-sub-title1">Professional</div>

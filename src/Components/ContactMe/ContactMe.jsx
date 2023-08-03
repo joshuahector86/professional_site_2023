@@ -2,7 +2,7 @@ import "./ContactMe.scss";
 
 function ContactMe() {
   return (
-    <div className="contact-me">
+    <div id="contactme" className="contact-me">
       <div className="contact-me-title">Contact Me</div>
       <div className="contact-me-form-container">
         <div className="form-left-side">

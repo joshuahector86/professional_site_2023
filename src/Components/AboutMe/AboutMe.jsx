@@ -3,7 +3,7 @@ import headshot from "../../assets/photo_of_me.png";
 
 function AboutMe() {
   return (
-    <div className="about-me">
+    <div id="aboutme" className="about-me">
       <img src={headshot} alt="" />
       <div className="about-me-right-side">
         <div className="about-me-title">About Me</div>

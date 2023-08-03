@@ -6,7 +6,7 @@ import {
 
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <div id="portfolio" className="portfolio">
       <div className="portfolio-title">Portfolio</div>
       <div className="portfolio-component-container">
         <FirstProject />

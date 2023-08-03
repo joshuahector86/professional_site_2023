@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import logo from "../../assets/logo.jpg";
+import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 
 function Navbar() {
@@ -23,12 +23,21 @@ function Navbar() {
   return (
     <div className={scrollUp ? "navbar" : "navbar hidden"}>
       <div className="links">
-        <button>HOME</button>
-        <button>AOUT ME</button>
-        <button>SKILLS</button>
-        <button>EXPERIENCE</button>
-        <button>PORTFOLIO</button>
-        <button>CONTACT ME</button>
+        <Link smooth={true} to="home" offset={50}>
+          <button>HOME</button>
+        </Link>
+        <Link smooth={true} to="aboutme" offset={20}>
+          <button>ABOUT ME</button>
+        </Link>
+        <Link smooth={true} to="experience" offset={10}>
+          <button>EXPERIENCE</button>
+        </Link>
+        <Link smooth={true} to="portfolio" offset={20}>
+          <button>PORTFOLIO</button>
+        </Link>
+        <Link smooth={true} to="contactme" offset={20}>
+          <button>CONTACT ME</button>
+        </Link>
       </div>
     </div>
   );
