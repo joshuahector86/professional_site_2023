@@ -1,0 +1,35 @@
+.footer {
+  margin-bottom: 5rem;
+  .footer-title {
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .link-row {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    button {
+      background: black;
+      color: #6c757d;
+      border: none;
+    }
+    button:hover {
+      color: #fd7e14;
+      cursor: pointer;
+    }
+  }
+
+  .social-media-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .copyright-line {
+    display: flex;
+    justify-content: center;
+  }
+}
