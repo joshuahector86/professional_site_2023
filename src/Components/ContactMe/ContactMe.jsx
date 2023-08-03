@@ -1,6 +1,13 @@
+import { useStoreWIP } from "../../ZustandStores/WorkInProgressStore/WorkInProgressDialog";
+import WorkInProgressDialog from "../DialogBox/OnSubmitPopUp/WorkInProgressDialog";
 import "./ContactMe.scss";
 
 function ContactMe() {
+  const WIPDialogOpen = useStoreWIP((state) => state.isWIPDialogOpen);
+  const openDialog = useStoreWIP((state) => state.openWIP);
+  function handleSubmit() {
+    openDialog();
+  }
   return (
     <div id="contactme" className="contact-me">
       <div className="contact-me-title">Contact Me</div>
@@ -19,7 +26,8 @@ function ContactMe() {
           />
         </div>
       </div>
-      <button>Submit</button>
+      <button onClick={handleSubmit}>Submit</button>
+      {WIPDialogOpen ? <WorkInProgressDialog /> : null}
     </div>
   );
 }

@@ -16,7 +16,8 @@
     "react-scroll": "^1.8.9",
     "react-share": "^4.4.1",
     "sass": "^1.64.2",
-    "typed.js": "^2.0.16"
+    "typed.js": "^2.0.16",
+    "zustand": "^4.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
