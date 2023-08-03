@@ -1,0 +1,47 @@
+.experience {
+  padding: 4rem;
+  display: flex;
+  .experience-inner-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 110rem;
+    .experience-title {
+      display: flex;
+      justify-content: center;
+      font-size: 5rem;
+      margin-bottom: 2rem;
+    }
+
+    .experience-sub-title1 {
+      display: flex;
+      margin-bottom: 3rem;
+      font-size: 4.5rem;
+      font-style: italic;
+      padding: 1rem;
+    }
+    .experience-sub-title2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3rem;
+      font-size: 4.5rem;
+      font-style: italic;
+      padding: 1rem;
+    }
+    .education-container {
+      display: flex;
+      justify-content: center;
+      gap: 15rem;
+    }
+
+    .experience-left-side {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .experience-right-side {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

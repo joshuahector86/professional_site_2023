@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo-side {
+    img {
+      width: 10rem;
+    }
+  }
+  .link-side {
+    button {
+      background: black;
+      color: white;
+      border: none;
+      border-top: solid 2px white;
+      border-radius: 0.15rem;
+      padding: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: grey;
+      font-size: 1rem;
+    }
+  }
+}

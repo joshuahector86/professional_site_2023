@@ -1,7 +1,7 @@
 import "./HeaderPhoto.scss";
 
 function HeaderPhoto() {
-  return <div>HeaderPhoto</div>;
+  return <div className="header-photo">HeaderPhoto</div>;
 }
 
 export default HeaderPhoto;
