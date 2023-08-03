@@ -14,3 +14,22 @@
     padding-left: 1.5rem;
   }
 }
+
+//small phone sizes
+@media all and (max-width: 36rem) {
+  .experience-content-container {
+    .time-worked {
+      font-size: 1.5rem;
+    }
+    .bullet-points-title {
+      font-size: 1.25rem;
+    }
+    .bullet-points {
+      font-size: 1rem;
+
+      p {
+        padding: 0.15rem;
+      }
+    }
+  }
+}

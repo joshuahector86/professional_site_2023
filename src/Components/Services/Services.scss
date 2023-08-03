@@ -28,3 +28,14 @@
     background: #2d3ef4;
   }
 }
+
+//small phone sizes
+@media all and (max-width: 36rem) {
+  .services {
+    display: block;
+
+    .service-box {
+      margin-bottom: 1rem;
+    }
+  }
+}

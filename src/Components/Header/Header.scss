@@ -10,3 +10,16 @@
     font-size: 6rem;
   }
 }
+
+// Phone Size Media Tags
+@media all and (max-width: 36rem) {
+  .header {
+    img {
+      max-width: 30rem;
+    }
+
+    .dancing-dev-title {
+      font-size: 2rem;
+    }
+  }
+}

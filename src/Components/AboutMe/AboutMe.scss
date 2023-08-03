@@ -20,3 +20,20 @@
     }
   }
 }
+
+//Small Phone Size
+@media all and (max-width: 36rem) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 20rem;
+      margin-bottom: -18rem;
+    }
+    .about-me-right-side {
+      padding-left: 2.5rem;
+    }
+  }
+}

@@ -62,7 +62,7 @@ function RoboticsResearcher() {
 function CiscoSoftwareEngineer() {
   return (
     <div className="experience-content-container">
-      <div className="time-worked">July 2021 - Now</div>
+      <div className="time-worked">July 2021 - Present</div>
       <div className="bullet-points-title">Cisco Software Engineer</div>
       <div className="bullet-points">
         <p>● Software engineer with Cisco’s Innovation sector.</p>

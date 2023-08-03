@@ -7,8 +7,6 @@ function Navbar() {
   // Logic for showing and hiding the navbar on scroll
   const [scrollUp, setScrollUp] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
-  // const [isIdle, setIsIdle] = useState(true); -------- Variable for Navbar Timeout ---/
-
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
@@ -16,17 +14,6 @@ function Navbar() {
       setPrevScrollPos(currentScrollPos);
       setIsIdle(false);
     };
-    //---------------------- Logic for handle scroll and Navbar timeout ----------------------//
-    // let timeout;
-    // const handleScrollAndIdle = () => {
-    //   handleScroll();
-    //   setIsIdle(false);
-    //   clearTimeout(timeout);
-    //   timeout = setTimeout(() => {
-    //     setIsIdle(true);
-    //   }, 3000); // Change this value to adjust the idle time (in milliseconds)
-    // };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
