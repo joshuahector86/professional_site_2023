@@ -1,6 +1,7 @@
 import "./Navbar.scss";
 import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
+import logo from "../../assets/logo.jpg";
 
 function Navbar() {
   // Logic for showing and hiding the navbar on scroll
@@ -22,8 +23,11 @@ function Navbar() {
   }, [prevScrollPos]); // useEffect stops the infinite looping
   return (
     <div className={scrollUp ? "navbar" : "navbar hidden"}>
+      <div className="logo-side">
+        <img src={logo} alt="Logo" />
+      </div>
       <div className="links">
-        <Link smooth={true} to="home" offset={50}>
+        <Link smooth={true} to="home" offset={0}>
           <button>HOME</button>
         </Link>
         <Link smooth={true} to="aboutme" offset={20}>
