@@ -1,0 +1,24 @@
+.project-box {
+  width: 15rem;
+  height: 13rem;
+  background: #13191a;
+  border: solid #2d3ef4 1px;
+
+  .project-title {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  img {
+    width: 15rem;
+    max-width: 20rem;
+  }
+}
+
+.project-box:hover {
+  background: #2d3ef4;
+  width: 20rem;
+  height: 16.35rem;
+  img {
+    width: 20rem;
+  }
+}
