@@ -59,4 +59,68 @@ function RoboticsResearcher() {
   );
 }
 
-export { UndergraduateResearcherContent, RoboticsResearcher };
+function CiscoSoftwareEngineer() {
+  return (
+    <div className="experience-content-container">
+      <div className="time-worked">July 2021 - Now</div>
+      <div className="bullet-points-title">Cisco Software Engineer</div>
+      <div className="bullet-points">
+        <p>● Software engineer with Cisco’s Innovation sector.</p>
+        <p>● Lead Engineer for UI development of multiple projects.</p>
+        <p>● Creation of new software tools for internal and external use.</p>
+        <p>● Developed SaaS products, and maintained code bases for them.</p>
+        <p>● Developed prototypes for company and shareholder demo.</p>
+        <p>
+          ● Planned and developed large scale architecture for commercial
+          software.
+        </p>
+        <p>
+          ● Experience with being a scrum master, UX designer, and software
+          marketing.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function MastersDegree() {
+  return (
+    <div className="experience-content-container">
+      <div className="bullet-points-title">
+        Howard University Master's Degree
+      </div>
+      <div className="bullet-points">
+        Howard University <br />
+        Washington, DC <br />
+        College of Electrical Engineering and COmputer Science <br />
+        Master of Science in Computer Science <br />
+        Major: Computer Science & Engineering
+      </div>
+    </div>
+  );
+}
+
+function BachelorsDegree() {
+  return (
+    <div className="experience-content-container">
+      <div className="bullet-points-title">
+        Ithaca College Bachelor's Degree
+      </div>
+      <div className="bullet-points">
+        Ithaca College <br />
+        Ithaca, NY <br />
+        School of Humanities and Sciences <br />
+        Bachelors of Science in Physics <br />
+        Major: Physics & Civil Engineering
+      </div>
+    </div>
+  );
+}
+
+export {
+  UndergraduateResearcherContent,
+  RoboticsResearcher,
+  CiscoSoftwareEngineer,
+  MastersDegree,
+  BachelorsDegree,
+};
