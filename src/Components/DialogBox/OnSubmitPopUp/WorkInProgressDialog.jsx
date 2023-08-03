@@ -10,14 +10,12 @@ function WorkInProgressDialog() {
   return (
     <div className="work-in-progress-dialog">
       <div className="work-in-progess-container">
-        <h1>Work In Progress!</h1>
+        <h1>Work In Progress</h1>
         <p>
           Sorry! This portion of the site isn't done yet. Please come back later
           :)
         </p>
-        <div>
-          <button onClick={onClose}>Close</button>
-        </div>
+        <button onClick={onClose}>Close</button>
       </div>
     </div>
   );

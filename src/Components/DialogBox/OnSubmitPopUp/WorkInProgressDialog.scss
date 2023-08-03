@@ -10,12 +10,20 @@
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 9999;
   .work-in-progess-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
     border-radius: 1rem;
-    background: grey;
+    background: #6c757d;
     color: black;
     width: 40rem;
     height: 20rem;
     font-size: 2rem;
+
+    button {
+      margin: 2rem;
+    }
   }
 }
