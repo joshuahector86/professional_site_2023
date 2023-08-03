@@ -8,6 +8,7 @@ import {
   TwitterIcon,
   TwitterShareButton,
 } from "react-share";
+import { Link } from "react-scroll";
 import "./Footer.scss";
 
 function Footer() {
@@ -15,12 +16,21 @@ function Footer() {
     <div className="footer">
       <div className="footer-title">Thanks for visiting my site!</div>
       <div className="link-row">
-        <button>Home</button>
-        <button>About Me</button>
-        <button>Skills</button>
-        <button>Experience</button>
-        <button>Portfolio</button>
-        <button>Contact Me</button>
+        <Link smooth={true} to="home" offset={0}>
+          <button>Home</button>
+        </Link>
+        <Link smooth={true} to="aboutme" offset={20}>
+          <button>About Me</button>
+        </Link>
+        <Link smooth={true} to="experience" offset={10}>
+          <button>Experience</button>
+        </Link>
+        <Link smooth={true} to="portfolio" offset={20}>
+          <button>Portfolio</button>
+        </Link>
+        <Link smooth={true} to="contactme" offset={20}>
+          <button>Contact me</button>
+        </Link>
       </div>
       <div className="social-media-row">
         <FacebookShareButton
