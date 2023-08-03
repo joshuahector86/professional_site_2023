@@ -39,3 +39,25 @@
 .navbar.hidden {
   transform: translateY(-100%);
 }
+
+//small screen size phone
+@media all and (max-width: 36rem) {
+  .navbar {
+    flex-direction: column;
+
+    .logo-side {
+      display: none;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      button {
+        width: 100vw;
+      }
+    }
+  }
+
+  .navbar.hidden {
+    transform: translateY(-500%);
+  }
+}
