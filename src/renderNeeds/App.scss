@@ -6,11 +6,5 @@
   padding: 2rem;
   background: black;
   color: white;
-}
-
-// small phone screen sizes
-@media all and (max-width: 36rem) {
-  .app {
-    overflow: hidden;
-  }
+  overflow: hidden;
 }

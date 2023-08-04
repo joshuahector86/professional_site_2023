@@ -23,3 +23,16 @@
     }
   }
 }
+
+//Tablet Size
+@media all and (max-width: 48rem) {
+  .header {
+    img {
+      max-width: 35rem;
+    }
+
+    .dancing-dev-title {
+      font-size: 3rem;
+    }
+  }
+}

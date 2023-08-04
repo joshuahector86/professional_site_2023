@@ -50,11 +50,37 @@
   }
 }
 
-// Small Phone Screen Sizes
+// Phone
 @media all and (max-width: 36rem) {
   .contact-me {
     .contact-me-title {
       margin-top: 4.5rem;
+      margin-bottom: -2rem;
+    }
+
+    .contact-me-form-container {
+      flex-direction: column;
+      align-items: center;
+
+      .form-left-side {
+        input {
+          width: 24rem;
+        }
+      }
+      .form-right-side {
+        input {
+          width: 24rem;
+        }
+      }
+    }
+  }
+}
+
+// Tablet
+@media all and (max-width: 48rem) {
+  .contact-me {
+    .contact-me-title {
+      margin-top: -2.5rem;
       margin-bottom: -2rem;
     }
 

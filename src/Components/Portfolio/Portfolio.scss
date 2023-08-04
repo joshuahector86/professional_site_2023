@@ -28,3 +28,17 @@
     }
   }
 }
+
+// Small Phone Screen Sizes
+@media all and (max-width: 48rem) {
+  .portfolio {
+    .portfolio-title {
+      margin-top: -7rem;
+      margin-bottom: -1rem;
+    }
+    .portfolio-component-container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+}

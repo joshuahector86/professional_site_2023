@@ -37,3 +37,19 @@
     }
   }
 }
+// Tablets
+@media all and (max-width: 48rem) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 20rem;
+      margin-bottom: -18rem;
+    }
+    .about-me-right-side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
