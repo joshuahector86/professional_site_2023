@@ -1,47 +1,187 @@
 .experience {
   padding: 4rem;
   display: flex;
+  margin: 2rem;
+
   .experience-inner-container {
     display: flex;
     flex-direction: column;
-    min-width: 110rem;
+
     .experience-title {
       display: flex;
       justify-content: center;
-      font-size: 5rem;
+      font-size: 4rem;
       margin-bottom: 2rem;
     }
 
+    // Subtitles Professional and Education
     .experience-sub-title1 {
       display: flex;
-      margin-bottom: 3rem;
-      font-size: 4.5rem;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
       font-style: italic;
       padding: 1rem;
     }
     .experience-sub-title2 {
       display: flex;
       flex-direction: row;
-      justify-content: center;
       align-items: center;
-      margin-bottom: 3rem;
-      font-size: 4.5rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
       font-style: italic;
       padding: 1rem;
     }
+    // Experience
+    .experience-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      .experience-tab {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+      }
+    }
+
+    // Education
     .education-container {
       display: flex;
       justify-content: center;
       gap: 15rem;
     }
+  }
+}
 
-    .experience-left-side {
-      display: flex;
-      justify-content: flex-start;
+//Phones
+@media all and (min-width: 23.75rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+        margin-bottom: -1rem;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
     }
-    .experience-right-side {
-      display: flex;
-      justify-content: flex-end;
+  }
+}
+
+//Phones
+@media all and (min-width: 36rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.5rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
+    }
+  }
+}
+
+//Tablets
+@media all and (min-width: 48rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.45rem;
+        margin-bottom: 2rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
+    }
+  }
+}
+
+//Small Laptops
+@media all and (min-width: 62.5rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.45rem;
+        margin-bottom: 2rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
+    }
+  }
+}
+
+//Medium Laptops
+@media all and (min-width: 68.75rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.45rem;
+        margin-bottom: 2rem;
+      }
+
+      .education-container {
+        flex-direction: row;
+        margin-top: -2rem;
+      }
     }
   }
 }

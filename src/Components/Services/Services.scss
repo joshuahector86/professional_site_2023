@@ -28,3 +28,70 @@
     background: #2d3ef4;
   }
 }
+
+//Phones
+@media all and (min-width: 23.75rem) {
+  .services {
+    display: block;
+
+    .service-box {
+      margin-bottom: 1rem;
+      width: 13rem;
+      height: 10rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+//Phones
+@media all and (min-width: 36rem) {
+  .services {
+    display: block;
+
+    .service-box {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+//Tablets
+@media all and (min-width: 48rem) {
+  .services {
+    display: block;
+
+    .service-box {
+      margin-bottom: 1rem;
+      width: 15rem;
+      height: 13rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+//Small Laptops
+@media all and (min-width: 62.5rem) {
+  .services {
+    gap: 2rem;
+    display: flex;
+    .service-box {
+      margin-bottom: 1rem;
+      width: 13rem;
+      height: 10rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+//Medium Laptops
+@media all and (min-width: 68.75rem) {
+  .services {
+    gap: 3rem;
+    display: flex;
+    .service-box {
+      margin-bottom: 1rem;
+      width: 13rem;
+      height: 10rem;
+      font-size: 1.5rem;
+    }
+  }
+}

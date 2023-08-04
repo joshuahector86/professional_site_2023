@@ -13,8 +13,40 @@
     max-width: 20rem;
   }
 }
-
 .project-box:hover {
   background: #2d3ef4;
   cursor: pointer;
+}
+
+// Small Phone Screen Sizes
+@media all and (min-width: 23.75rem) {
+  .project-box {
+    margin-bottom: -8rem;
+  }
+}
+
+//Phone Screen Sizes
+@media all and (min-width: 36rem) {
+  .project-box {
+    margin-bottom: -8rem;
+  }
+}
+
+//Tablets
+@media all and (min-width: 48rem) {
+  .project-box {
+    margin-bottom: 0rem;
+  }
+}
+
+// Small Laptops
+@media all and (min-width: 62.5rem) {
+  .project-box {
+    width: 12rem;
+    height: auto;
+
+    img {
+      width: 12rem;
+    }
+  }
 }

@@ -62,7 +62,7 @@ function RoboticsResearcher() {
 function CiscoSoftwareEngineer() {
   return (
     <div className="experience-content-container">
-      <div className="time-worked">July 2021 - Now</div>
+      <div className="time-worked">July 2021 - Present</div>
       <div className="bullet-points-title">Cisco Software Engineer</div>
       <div className="bullet-points">
         <p>● Software engineer with Cisco’s Innovation sector.</p>
@@ -92,7 +92,7 @@ function MastersDegree() {
       <div className="bullet-points">
         Howard University <br />
         Washington, DC <br />
-        College of Electrical Engineering and COmputer Science <br />
+        College of Electrical Engineering and Computer Science <br />
         Master of Science in Computer Science <br />
         Major: Computer Science & Engineering
       </div>

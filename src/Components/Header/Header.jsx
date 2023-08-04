@@ -4,9 +4,8 @@ import Typed from "typed.js";
 
 function Header() {
   return (
-    <div className="header">
+    <div id="home" className="header ">
       <img src={logo} alt="logo enlarged" />
-
       <div className="dancing-dev-title">The Dancing Developer</div>
     </div>
   );
