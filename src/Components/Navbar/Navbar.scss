@@ -18,6 +18,10 @@
     }
   }
 
+  .toggler {
+    display: none;
+  }
+
   .links {
     button {
       background: black;
@@ -44,6 +48,10 @@
 @media all and (max-width: 36rem) {
   .navbar {
     flex-direction: column;
+    align-items: start;
+    height: 1rem;
+    position: fixed;
+    right: 0.5%;
 
     .logo-side {
       display: none;
@@ -51,9 +59,21 @@
     .links {
       display: flex;
       flex-direction: column;
+
       button {
-        width: 100vw;
+        width: 30vw;
+        font-size: 1rem;
+        background: #343a40;
       }
+      button:hover {
+        background: #fd7e14;
+      }
+    }
+
+    .toggler {
+      display: block;
+      font-size: 1.5rem;
+      cursor: pointer;
     }
   }
 
