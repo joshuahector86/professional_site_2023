@@ -105,3 +105,30 @@
     }
   }
 }
+
+//Small Laptops
+@media all and (max-width: 62.5rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.45rem;
+        margin-bottom: 2rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
+    }
+  }
+}

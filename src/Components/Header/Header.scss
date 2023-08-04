@@ -36,3 +36,16 @@
     }
   }
 }
+
+//Small Laptop
+@media all and (max-width: 62.5rem) {
+  .header {
+    img {
+      max-width: 40rem;
+    }
+
+    .dancing-dev-title {
+      font-size: 3rem;
+    }
+  }
+}

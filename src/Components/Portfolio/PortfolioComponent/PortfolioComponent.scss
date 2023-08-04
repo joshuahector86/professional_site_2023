@@ -24,3 +24,15 @@
     margin-bottom: -8rem;
   }
 }
+
+// Small Laptops
+@media all and (max-width: 62.5rem) {
+  .project-box {
+    width: 12rem;
+    height: auto;
+
+    img {
+      width: 12rem;
+    }
+  }
+}

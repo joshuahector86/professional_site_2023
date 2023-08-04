@@ -29,7 +29,7 @@
   }
 }
 
-// Small Phone Screen Sizes
+// Tablets
 @media all and (max-width: 48rem) {
   .portfolio {
     .portfolio-title {
@@ -38,6 +38,19 @@
     }
     .portfolio-component-container {
       flex-direction: column;
+      gap: 2rem;
+    }
+  }
+}
+
+// Small Laptops
+@media all and (max-width: 62.5rem) {
+  .portfolio {
+    .portfolio-title {
+      margin-top: -6rem;
+      margin-bottom: 1rem;
+    }
+    .portfolio-component-container {
       gap: 2rem;
     }
   }

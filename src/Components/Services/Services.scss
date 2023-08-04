@@ -50,3 +50,16 @@
     }
   }
 }
+
+//Small Laptops
+@media all and (max-width: 62.5rem) {
+  .services {
+    gap: 2rem;
+    .service-box {
+      margin-bottom: 1rem;
+      width: 13rem;
+      height: 10rem;
+      font-size: 1.5rem;
+    }
+  }
+}
