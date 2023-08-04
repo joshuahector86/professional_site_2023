@@ -54,7 +54,33 @@
 }
 
 //Phones
-@media all and (max-width: 36rem) {
+@media all and (min-width: 23.75rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.5rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
+    }
+  }
+}
+
+//Phones
+@media all and (min-width: 36rem) {
   .experience {
     .experience-inner-container {
       .experience-title {
@@ -80,7 +106,7 @@
 }
 
 //Tablets
-@media all and (max-width: 48rem) {
+@media all and (min-width: 48rem) {
   .experience {
     .experience-inner-container {
       .experience-title {
@@ -107,7 +133,34 @@
 }
 
 //Small Laptops
-@media all and (max-width: 62.5rem) {
+@media all and (min-width: 62.5rem) {
+  .experience {
+    .experience-inner-container {
+      .experience-title {
+        margin-top: -4rem;
+      }
+
+      .experience-sub-title1 {
+        justify-content: center;
+      }
+
+      .experience-sub-title2 {
+        justify-content: center;
+        margin-top: -0.45rem;
+        margin-bottom: 2rem;
+      }
+
+      .education-container {
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: -2rem;
+      }
+    }
+  }
+}
+
+//Medium Laptops
+@media all and (min-width: 68.75rem) {
   .experience {
     .experience-inner-container {
       .experience-title {

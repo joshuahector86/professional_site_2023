@@ -16,12 +16,26 @@
   }
 }
 
-// Small Phone Screen Sizes
-@media all and (max-width: 36rem) {
+// Small Phone
+@media all and (min-width: 23.75rem) {
   .portfolio {
     .portfolio-title {
       margin-top: -7rem;
-      margin-bottom: -1rem;
+      margin-bottom: 0;
+    }
+    .portfolio-component-container {
+      flex-direction: column;
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+// Phone
+@media all and (min-width: 36rem) {
+  .portfolio {
+    .portfolio-title {
+      margin-top: -7rem;
+      margin-bottom: 0rem;
     }
     .portfolio-component-container {
       flex-direction: column;
@@ -30,11 +44,11 @@
 }
 
 // Tablets
-@media all and (max-width: 48rem) {
+@media all and (min-width: 48rem) {
   .portfolio {
     .portfolio-title {
       margin-top: -7rem;
-      margin-bottom: -1rem;
+      margin-bottom: 0rem;
     }
     .portfolio-component-container {
       flex-direction: column;
@@ -44,13 +58,29 @@
 }
 
 // Small Laptops
-@media all and (max-width: 62.5rem) {
+@media all and (min-width: 62.5rem) {
   .portfolio {
     .portfolio-title {
       margin-top: -6rem;
       margin-bottom: 1rem;
     }
     .portfolio-component-container {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+}
+
+// Small Laptops
+@media all and (min-width: 68.75rem) {
+  .portfolio {
+    .portfolio-title {
+      margin-top: -6rem;
+      margin-bottom: 1rem;
+    }
+    .portfolio-component-container {
+      flex-direction: row;
+
       gap: 2rem;
     }
   }

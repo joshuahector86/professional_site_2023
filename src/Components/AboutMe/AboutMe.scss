@@ -21,8 +21,25 @@
   }
 }
 
-//Small Phone Size
-@media all and (max-width: 36rem) {
+// Small Phone
+@media all and (min-width: 23.75rem) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 18rem;
+      margin-bottom: -18rem;
+    }
+    .about-me-right-side {
+      padding-left: 2.5rem;
+    }
+  }
+}
+
+// Phone
+@media all and (min-width: 36rem) {
   .about-me {
     display: flex;
     flex-direction: column;
@@ -38,7 +55,7 @@
   }
 }
 // Tablets
-@media all and (max-width: 48rem) {
+@media all and (min-width: 48rem) {
   .about-me {
     display: flex;
     flex-direction: column;
@@ -55,10 +72,11 @@
 }
 
 // Small Laptops
-@media all and (max-width: 62.5rem) {
+@media all and (min-width: 62.5rem) {
   .about-me {
     display: flex;
     flex-direction: column;
+
     img {
       width: 20rem;
       margin-bottom: -18rem;

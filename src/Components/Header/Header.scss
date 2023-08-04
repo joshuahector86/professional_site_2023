@@ -11,8 +11,21 @@
   }
 }
 
-// Phone Size Media Tags
-@media all and (max-width: 36rem) {
+// Small Phone
+@media screen and (min-width: 380px) {
+  .header {
+    img {
+      max-width: 25rem;
+    }
+
+    .dancing-dev-title {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// Phone
+@media all and (min-width: 36rem) {
   .header {
     img {
       max-width: 30rem;
@@ -24,8 +37,8 @@
   }
 }
 
-//Tablet Size
-@media all and (max-width: 48rem) {
+//Tablet
+@media all and (min-width: 48rem) {
   .header {
     img {
       max-width: 35rem;
@@ -38,7 +51,7 @@
 }
 
 //Small Laptop
-@media all and (max-width: 62.5rem) {
+@media all and (min-width: 62.5rem) {
   .header {
     img {
       max-width: 40rem;

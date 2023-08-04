@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 2rem;
+  margin-top: -5rem;
   .contact-me-title {
     font-size: 4rem;
     padding: 3rem;
@@ -51,7 +52,34 @@
 }
 
 // Phone
-@media all and (max-width: 36rem) {
+@media all and (min-width: 23.75rem) {
+  .contact-me {
+    .contact-me-title {
+      margin-top: 5rem;
+      margin-bottom: -2rem;
+      font-size: 3.5rem;
+    }
+
+    .contact-me-form-container {
+      flex-direction: column;
+      align-items: center;
+
+      .form-left-side {
+        input {
+          width: 22rem;
+        }
+      }
+      .form-right-side {
+        input {
+          width: 22rem;
+        }
+      }
+    }
+  }
+}
+
+// Phone
+@media all and (min-width: 36rem) {
   .contact-me {
     .contact-me-title {
       margin-top: 4.5rem;
@@ -77,7 +105,7 @@
 }
 
 // Tablet
-@media all and (max-width: 48rem) {
+@media all and (min-width: 48rem) {
   .contact-me {
     .contact-me-title {
       margin-top: -2.5rem;
@@ -103,7 +131,7 @@
 }
 
 // Small Laptops
-@media all and (max-width: 62.5rem) {
+@media all and (min-width: 62.5rem) {
   .contact-me {
     .contact-me-title {
       margin-top: -2.5rem;
@@ -112,6 +140,32 @@
 
     .contact-me-form-container {
       align-items: center;
+
+      .form-left-side {
+        input {
+          width: 24rem;
+        }
+      }
+      .form-right-side {
+        input {
+          width: 24rem;
+        }
+      }
+    }
+  }
+}
+
+// Small Laptops
+@media all and (min-width: 68.75rem) {
+  .contact-me {
+    .contact-me-title {
+      margin-top: -2.5rem;
+      margin-bottom: -2rem;
+    }
+
+    .contact-me-form-container {
+      align-items: center;
+      flex-direction: row;
 
       .form-left-side {
         input {
