@@ -22,7 +22,7 @@ function ContactMe() {
           <input
             className="message-input"
             type="text"
-            placeholder="Email Message"
+            placeholder="Note: Click Submit before writing"
           />
         </div>
       </div>

@@ -45,8 +45,7 @@
   transform: translateY(-100%);
 }
 
-//small screen size phone
-
+// Small Laptops
 @media all and (max-width: 62.5rem) {
   .navbar {
     flex-direction: column;
@@ -84,6 +83,7 @@
   }
 }
 
+// Small screen size phone
 @media all and (max-width: 23.75rem) {
   .navbar {
     flex-direction: column;

@@ -19,6 +19,13 @@
 }
 
 // Small Phone Screen Sizes
+@media all and (min-width: 23.75rem) {
+  .project-box {
+    margin-bottom: -8rem;
+  }
+}
+
+//Phone Screen Sizes
 @media all and (min-width: 36rem) {
   .project-box {
     margin-bottom: -8rem;

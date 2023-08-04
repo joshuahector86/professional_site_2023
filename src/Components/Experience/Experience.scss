@@ -63,11 +63,12 @@
 
       .experience-sub-title1 {
         justify-content: center;
+        margin-bottom: -1rem;
       }
 
       .experience-sub-title2 {
         justify-content: center;
-        margin-top: -0.5rem;
+        margin-top: 1rem;
       }
 
       .education-container {
@@ -178,8 +179,7 @@
       }
 
       .education-container {
-        gap: 2rem;
-        flex-direction: column;
+        flex-direction: row;
         margin-top: -2rem;
       }
     }

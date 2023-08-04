@@ -92,7 +92,7 @@ function MastersDegree() {
       <div className="bullet-points">
         Howard University <br />
         Washington, DC <br />
-        College of Electrical Engineering and COmputer Science <br />
+        College of Electrical Engineering and Computer Science <br />
         Master of Science in Computer Science <br />
         Major: Computer Science & Engineering
       </div>

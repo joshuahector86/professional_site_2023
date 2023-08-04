@@ -15,8 +15,8 @@
   }
 }
 
-//small phone sizes
-@media all and (max-width: 36rem) {
+// Small phone
+@media all and (min-width: 23.75rem) {
   .experience-content-container {
     .time-worked {
       font-size: 1.5rem;
@@ -26,7 +26,24 @@
     }
     .bullet-points {
       font-size: 1rem;
+      p {
+        padding: 0.15rem;
+      }
+    }
+  }
+}
 
+// Phone
+@media all and (min-width: 36rem) {
+  .experience-content-container {
+    .time-worked {
+      font-size: 1.75rem;
+    }
+    .bullet-points-title {
+      font-size: 1.5rem;
+    }
+    .bullet-points {
+      font-size: 1.1rem;
       p {
         padding: 0.15rem;
       }
