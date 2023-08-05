@@ -1,6 +1,6 @@
 {
   "name": "professional_site_2023",
-  "homepage": "https://joshuahector86.github.io/professional_site_2023/",
+  "homepage": "https://dimitrihector.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -31,6 +30,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^5.0.0",
     "vite": "^4.4.8"
   }
 }
