@@ -4,7 +4,7 @@ The purpose of this website is to redo my previous website but with a much clean
 
 ## Tools
 
-This is a project done with React JS and SASS. Everything is built from scratch with the only additives of react-scroll and react-icons. The project was done using React version 18.2.0 and NPM version 9.3.1
+This is a vite built project done with React JS and SASS. Everything is built from scratch with the only additives of react-scroll and react-icons. The project was done using React version 18.2.0 and NPM version 9.3.1
 
 ## Running the project
 
