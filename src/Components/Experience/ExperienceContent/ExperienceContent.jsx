@@ -38,7 +38,7 @@ function RoboticsResearcher() {
   return (
     <div className="experience-content-container">
       <div className="time-worked">August 2020 - April 2021</div>
-      <div className="bullet-points-title">Robotics Researcher</div>
+      <div className="bullet-points-title">Autodesk Robotics Researcher</div>
       <div className="bullet-points">
         <p>● Designed simulations in Unity for robotic research.</p>
         <p>
@@ -77,6 +77,31 @@ function CiscoSoftwareEngineer() {
         <p>
           ● Experience with being a scrum master, UX designer, and software
           marketing.
+        </p>
+      </div>
+    </div>
+  );
+}
+function HowardTechResearcher() {
+  return (
+    <div className="experience-content-container">
+      <div className="time-worked">February 2020 - May 2021</div>
+      <div className="bullet-points-title">
+        Howard University Tech Researcher
+      </div>
+      <div className="bullet-points">
+        <p>
+          ● Developed cyber security solutions for database and mobile
+          information leaks.
+        </p>
+        <p>● Coordinated user expectations with the project owner.</p>
+        <p>
+          ● Directed communication with customers to define requirements for
+          multiple projects.
+        </p>
+        <p>
+          ● Maintained and improved legacy code bases for future use and
+          integration into modern frameworks.
         </p>
       </div>
     </div>
@@ -121,6 +146,7 @@ export {
   UndergraduateResearcherContent,
   RoboticsResearcher,
   CiscoSoftwareEngineer,
+  HowardTechResearcher,
   MastersDegree,
   BachelorsDegree,
 };
