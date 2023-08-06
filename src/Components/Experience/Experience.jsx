@@ -5,6 +5,7 @@ import {
   CiscoSoftwareEngineer,
   MastersDegree,
   BachelorsDegree,
+  HowardTechResearcher,
 } from "../Experience/ExperienceContent/ExperienceContent";
 
 function Experience() {
@@ -18,8 +19,12 @@ function Experience() {
             <CiscoSoftwareEngineer />
           </div>
           <div className="experience-tab">
+            <HowardTechResearcher />
+          </div>
+          <div className="experience-tab">
             <RoboticsResearcher />
           </div>
+
           <div className="experience-tab">
             <UndergraduateResearcherContent />
           </div>
