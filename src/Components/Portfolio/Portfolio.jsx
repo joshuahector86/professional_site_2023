@@ -12,14 +12,36 @@ function Portfolio() {
   function handleSubmit() {
     openDialog();
   }
+  // Avoids security issue with just using '_blank'
+  const OpenURLInNewTab = (url) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
+
+  // URL onClcik functions
+  function ToKryptoniumDash() {
+    OpenURLInNewTab(
+      "https://joshuahector86.github.io/crypto-dashboard-remake/"
+    );
+  }
+
   return (
     <div id="portfolio" className="portfolio">
       <div className="portfolio-title">Portfolio</div>
-      <div onClick={handleSubmit} className="portfolio-component-container">
-        <FirstProject />
-        <SecondProject />
-        <SecondProject />
-        <SecondProject />
+      <div className="portfolio-component-container">
+        <div onClick={ToKryptoniumDash}>
+          <FirstProject />
+        </div>
+        <div onClick={handleSubmit}>
+          <SecondProject />
+        </div>
+
+        <div onClick={handleSubmit}>
+          <SecondProject />
+        </div>
+        <div onClick={handleSubmit}>
+          <SecondProject />
+        </div>
       </div>
       {WIPDialogOpen ? <WorkInProgressDialog /> : null}
     </div>
