@@ -3,12 +3,21 @@
   flex-direction: column;
   align-items: center;
   min-width: 60rem;
-  margin: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
 
   .portfolio-title {
-    font-size: 4rem;
-    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
     margin-bottom: 2rem;
+    background: #13191a;
+    border: solid black;
+    font-style: italic;
+  }
+  .portfolio-title:hover {
+    background: #2d3ef4;
+    cursor: pointer;
   }
   .portfolio-component-container {
     display: flex;
