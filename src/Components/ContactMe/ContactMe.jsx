@@ -9,25 +9,29 @@ function ContactMe() {
     openDialog();
   }
   return (
+    // <div id="contactme" className="contact-me">
+    //   <div className="contact-me-title">Contact Me</div>
+    //   <div className="contact-me-form-container">
+    //     <div className="form-left-side">
+    //       <input type="text" placeholder="Name" />
+    //       <input type="text" placeholder="Phone Number" />
+    //       <input type="text" placeholder="Email Address" />
+    //     </div>
+    //     <div className="form-right-side">
+    //       <input type="text" placeholder="Email Subject" />
+    //       <input
+    //         className="message-input"
+    //         type="text"
+    //         placeholder="Note: Click Submit before writing"
+    //       />
+    //     </div>
+    //   </div>
+    //   <button onClick={handleSubmit}>Submit</button>
+    //   {WIPDialogOpen ? <WorkInProgressDialog /> : null}
+    // </div>
+
     <div id="contactme" className="contact-me">
-      <div className="contact-me-title">Contact Me</div>
-      <div className="contact-me-form-container">
-        <div className="form-left-side">
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Phone Number" />
-          <input type="text" placeholder="Email Address" />
-        </div>
-        <div className="form-right-side">
-          <input type="text" placeholder="Email Subject" />
-          <input
-            className="message-input"
-            type="text"
-            placeholder="Note: Click Submit before writing"
-          />
-        </div>
-      </div>
-      <button onClick={handleSubmit}>Submit</button>
-      {WIPDialogOpen ? <WorkInProgressDialog /> : null}
+      <div className="email">Email: joshuahector86@gmail.com</div>
     </div>
   );
 }
