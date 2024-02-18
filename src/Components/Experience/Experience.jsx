@@ -1,11 +1,9 @@
 import "./Experience.scss";
 import {
-  UndergraduateResearcherContent,
-  RoboticsResearcher,
   CiscoSoftwareEngineer,
   MastersDegree,
   BachelorsDegree,
-  HowardTechResearcher,
+  RoboticsAndSyberSecurityEngineer,
 } from "../Experience/ExperienceContent/ExperienceContent";
 
 function Experience() {
@@ -19,14 +17,7 @@ function Experience() {
             <CiscoSoftwareEngineer />
           </div>
           <div className="experience-tab">
-            <HowardTechResearcher />
-          </div>
-          <div className="experience-tab">
-            <RoboticsResearcher />
-          </div>
-
-          <div className="experience-tab">
-            <UndergraduateResearcherContent />
+            <RoboticsAndSyberSecurityEngineer />
           </div>
         </div>
         <div className="experience-sub-title2">Education</div>
