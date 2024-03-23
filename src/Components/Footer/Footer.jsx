@@ -64,7 +64,7 @@ function Footer() {
       </div>
       <div className="copyright-line">
         Copyright &copy;
-        {new Date().getFullYear()}&nbsp; Joshua Hector | All Rights Reserved
+        {new Date().getFullYear()}&nbsp; Dimitri Hector | All Rights Reserved
       </div>
     </div>
   );
